@@ -1,6 +1,7 @@
 # erdi-project
 
 > My praiseworthy Nuxt.js project
+> Live version (Deployed with Heroku) https://turalee.herokuapp.com/admin
 
 ## Build Setup
 
