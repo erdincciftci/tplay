@@ -1,7 +1,6 @@
 # erdi-project
 
-> My praiseworthy Nuxt.js project
-> Live version (Deployed with Heroku) https://turalee.herokuapp.com/admin
+> My Vue Js & Nuxt Project for Web Frontend Technologies, Live version is at (Deployed with Heroku) https://turalee.herokuapp.com
 
 ## Build Setup
 
