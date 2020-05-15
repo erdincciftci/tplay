@@ -4,7 +4,7 @@
 
 <section class="intro"> 
   <h1>
-    Pick a song and learn German!
+    Pick a song and learn German! Test Change deployment.
   </h1>
 </section>
 <PostList :posts="loadedPosts"/>
@@ -12,23 +12,21 @@
   </div>
 </template>
 <script>
-
-
 export default {
-    computed: {
-      loadedPosts() {
-        return this.$store.getters.loadedPosts
-      }
+  computed: {
+    loadedPosts() {
+      return this.$store.getters.loadedPosts;
     }
+  }
   // data () {
   //   return {
   //     loadedPosts: []
   //   }
   // },
   //  created() {
-    
+
   // }
-}
+};
 </script>
 
 
@@ -38,7 +36,7 @@ export default {
   position: relative;
   padding: 30px;
   box-sizing: border-box;
-  background-image: url('~assets/images/kahve.jpg');
+  background-image: url("~assets/images/kahve.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -72,6 +70,4 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
-
 </style>
