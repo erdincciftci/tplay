@@ -105,6 +105,10 @@ export default {
   // },
 
   mounted: function() {
+    const P5 = require('p5')
+    new P5(radar.main)
+    // NOTE: p5.jsからのコールバックを受け取る
+    radar.setDelegate(this.callbackOnP5)
     var imageSrc = this.imageVib;
     let savedColors = this.colPalette;
     Vibrant.from(imageSrc)
@@ -349,6 +353,6 @@ color: rgba(255, 255, 255, 0.8);
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a.nuxt-link-active {
-  color: red;
+  color: #FFFBF2;
 }
 </style>
