@@ -1,14 +1,11 @@
 <template>
-  
   <div class="home-page">
-
-<section class="intro"> 
-  <h1>
-    Pick a song and learn German! Test Change deployment.
-  </h1>
-</section>
-<PostList :posts="loadedPosts"/>
-
+    <section class="intro">
+      <h1>
+        Click a song to view generated page designs with lyrics and cover art.
+      </h1>
+    </section>
+    <PostList :posts="loadedPosts" />
   </div>
 </template>
 <script>
@@ -28,7 +25,6 @@ export default {
   // }
 };
 </script>
-
 
 <style scoped>
 .intro {
