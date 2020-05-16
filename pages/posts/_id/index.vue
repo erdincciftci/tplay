@@ -105,10 +105,7 @@ export default {
   // },
 
   mounted: function() {
-    const P5 = require('p5')
-    new P5(radar.main)
-    // NOTE: p5.jsからのコールバックを受け取る
-    radar.setDelegate(this.callbackOnP5)
+   
     var imageSrc = this.imageVib;
     let savedColors = this.colPalette;
     Vibrant.from(imageSrc)
